@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+    --playfair: "Playfair Display", serif;
+    --quicksand: "Quicksand", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.containe {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-image: url(photos/view-arrangement-with-keyboard-notebooks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    margin: 0;
+}
+.pp {
+    color: black;
+}
+.pp a {
+    text-decoration: none;
+    color: black;
+}
+.pp a:hover {
+    color: blue;
+}
+h2 {
+    margin: 0;
+    color: rgb(125, 69, 48);
+}
+h2 span {
+    color: yellow;
+}
+.men {
+    border: none;
+    border-radius: 2rem;
+    height: 30px;
+    width: 300px;
+    padding: 5px;
+}
+.check {
+    color: yellow;
+    cursor: pointer;
+    border: none;
+}
+button {
+    padding: 5px;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.2rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation .logo a {
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: var(--playfair);
+    letter-spacing: 1px;
+}
+.navbar-nav {
+    padding: 0.8rem 0 0.2rem 0;
+}
+.navbar-nav a {
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.navbar-nav a:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+    --playfair: "Playfair Display", serif;
+    --quicksand: "Quicksand", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--playfair);
+}
+body {
+    line-height: 1.4;
+    color: var(--dark);
+}
+img {
+    width: 100%;
+    display: block;
+}
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-image: url(photos/vecteezy_minimalist-dark-gradient-wave-background-simple-design-for_7718309.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.2rem;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation .logo a {
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: var(--playfair);
+    letter-spacing: 1px;
+}
+.navbar-nav {
+    padding: 0.8rem 0 0.2rem 0;
+}
+.navbar-nav a {
+    text-transform: uppercase;
+    font-family: var(--roboto);
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+.navbar-nav a:hover {
+    opacity: 0.7;
+}
+.design {
+    justify-content: space-between;
+}
+img {
+    height: 600px;
+    width: 700px;
+    margin: 0.4rem 2rem;
+    float: left;
+}
+p {
+    margin: 2rem 2rem;
+    color: #f9f9f9;
+}
+#img {
+    float: left;
+}
